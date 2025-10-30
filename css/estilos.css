@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+
+header {
+  background-color: #6cc1ff;
+  color: rgb(14, 15, 14);
+  text-align: center;
+  padding: 40px;
+  border: 4px solid #0919c9;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 36px;
+  color: #222;
+}
+
+
+.contenido-principal {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center; 
+}
+
+.descripcion {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.destinos {
+  text-align: left; 
+  margin: 0 auto;
+  display: inline-block; 
+}
+
+.destinos h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.destinos ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.tIndex {
+  text-align: center;
+}
+
+
+
+
+.navbar ul li a {
+    color: rgb(207, 144, 56); 
+    
+    text-decoration: none; 
+    padding: 8px 12px; 
+    border-radius: 5px; 
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+.navbar ul li a:hover {
+    background-color: rgb(197, 219, 231); 
+    color: #0a3dbe;          
+    border: 1px solid #0a3dbe; 
+}
+
+
+.navbar ul {
+  list-style: none;
+  text-align: center;
+}
+
+.navbar li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.centrar-imagen img {
+    width: 80%;          
+    max-width: 600px;   
+    height: auto;        
+    border: 5px solid #0077cc; 
+    border-radius: 15px;      
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); 
+    display: block;
+    margin: 20px auto; /
+}
+/* 
+*/
+.post {
+  background-color: white;
+  border: 2px solid #ccc;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 8px;
+}
+
+.post-header img {
+  display: block;
+  margin: 10px auto;
+  border: 4px solid #ddd;
+}
+
+.post-header h3 {
+  text-align: center;
+  color: #070808;
+}
+
+.subtitulo {
+  text-align: center;
+  font-style: italic;
+  color: #666;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+th, td {
+  border: 1px solid #999;
+  padding: 10px;
+  text-align: center;
+}
+
+
+th {
+  background-color: #0077cc;
+  color: white;
+}
+
+
+
+footer {
+  background-color: #89bfee;
+  border-top: 3px solid #062237;
+  padding: 25px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+footer h4 {
+  margin-bottom: 15px;
+}
+
+.submitbutton {
+  background-color: #5e3cc5;
+  color: rgb(7, 11, 66);
+  border: none;
+  padding: 15px 30px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+
+
+.submitbutton:hover {
+  background-color: #9cc4e1;
+}
